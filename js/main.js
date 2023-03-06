@@ -3,7 +3,11 @@ let num2 = 5;
 
 function multiplay(num1, num2) {
     let result = num1 * num2;
-
     return result;
 }
-console.log(multiplay(num1, num2))
+if (10 === 11) {
+    console.log('10');
+}
+else {
+    console.log('108');
+}
